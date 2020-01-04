@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Amiri", sans-serif !important;
+  font-family: "Amiri" inherit !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
