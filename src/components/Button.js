@@ -10,7 +10,7 @@ export const ButtonContainer = styled.button`
   padding: 0.2rem 0.5rem;
   margin: 0.2rem 0.5rem 0.2rem 0;
   cursor: pointer;
-  transition: all 0.5s easy-in-out;
+  transition: all 0.5s ease-in-out;
   &:hover {
     background: var(--lightBlue);
     color: var(--mainBlue);
