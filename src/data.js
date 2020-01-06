@@ -127,15 +127,11 @@ export const storeProducts = [
 
 export const detailProduct = {
   id: 1,
-  title: "iPhone 7",
+  title: "iPhone 7 128GB Space Grey",
+  company: "Apple",
   img: "img/product-1.png",
   price: 10,
-  info: `- 4.7 Inch Retina HD display
-    - IP67 water and dust resistant (maximum depth of 1 metre up to 30 minutes)
-    - 12MP camera and 4K video and 7MP FaceTime HD camera with Retina Flash
-    - Touch ID for secure authentication and Apple Pay
-    - A10 Fusion chip
-    - iOS 12 with Screen Time, Group FaceTime, and even faster performance`,
+  info: `Every bit of the iPhone 7 is as powerful as it looks, the device is powered by Quad-core (2.34 GHz, Dual-core, Hurricane + 1.1 GHz, Dual-core, Zephyr) processor paired with 2 GB of RAM. For exceptional graphical performance and allowing users to play games smoothly, this phone is equipped with a PowerVR GT7600 Plus GPU. Its function on iOS v10 operating system and features a 4.7" (11.94 cm) display, having a screen resolution of 750 x 1334 pixels. The iPhone 7 skins in an elegantly designed body with easy grip with a matte finish owing to the bead-blasted aluminum is used in its body. `,
   inCart: false,
   count: 0,
   total: 0
