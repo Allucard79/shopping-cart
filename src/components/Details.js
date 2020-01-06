@@ -11,7 +11,7 @@ class Details extends Component {
           const {
             id,
             img,
-            company,
+            model,
             info,
             price,
             title,
@@ -29,18 +29,15 @@ class Details extends Component {
                   <img src={img} className="img-fluid" alt="product"></img>
                 </div>
                 <div className="col-10 mx-auto col-md-6 my-3">
-                  <h2>model: {title}</h2>
-                  <h4 className="text-title text-muted mt-3 mb-2">
-                    by: <span>{company}</span>
-                  </h4>
+                  <h3>Model: {model}</h3>
                   <h4 className="text-blue">
                     <strong>
-                      price: <span>$</span>
+                      Price: <span>$</span>
                       {price}
                     </strong>
                   </h4>
-                  <p className="text-capitalize font-weight-bold mt-3 mb-0">
-                    info about product:
+                  <p className="font-weight-bold mt-3 mb-0">
+                    Info about product:
                   </p>
                   <p className="text-muted lead">{info}</p>
                   <div>
