@@ -123,6 +123,7 @@ export const storeProducts = [
     id: 8,
     title: "refurbished iPhone",
     img: "img/product-8.png",
+    model: "iPhone 6S 16GB",
     price: 2,
     info:
       "The Apple iPhone 6s Smartphone sports a 4.7-inch Retina HD display and is available in elegant space gray. It has a storage capacity of 32 GB, and it runs on iOS. The slim phone features 3D Touch as well as Touch ID technology. Powered by the A9 chip with 64-bit architecture and integrated M9 motion coprocessor, it provides high speed and efficiency. Featuring a 12 MP iSight rear camera and a 5 MP FaceTime HD front camera, it allows you to capture sharp and detailed photographs or videos. In addition, this light and compact phone offers LTE and Wi-Fi connectivity.",
