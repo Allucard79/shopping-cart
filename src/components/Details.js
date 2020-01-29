@@ -20,7 +20,7 @@ class Details extends Component {
           return (
             <div className="container py-5">
               <div className="row">
-                <div className="col-10 mx-auto text-center text-slanted text-blue my-5">
+                <div className="col-10 mx-auto text-center text-slanted my-5">
                   <h1>{title}</h1>
                 </div>
               </div>
@@ -28,9 +28,9 @@ class Details extends Component {
                 <div className="col-10 mx-auto col-md-6 my-3">
                   <img src={img} className="img-fluid" alt="product"></img>
                 </div>
-                <div className="col-10 mx-auto col-md-6 my-3">
+                <div className="col-10 mx-auto col-md-6 my-3 info p-3">
                   <h3>Model: {model}</h3>
-                  <h4 className="text-blue">
+                  <h4 className="text-white">
                     <strong>
                       Price: <span>$</span>
                       {price}
@@ -39,7 +39,7 @@ class Details extends Component {
                   <p className="font-weight-bold mt-3 mb-0">
                     Info about product:
                   </p>
-                  <p className="text-muted lead">{info}</p>
+                  <p className="lead text-inf">{info}</p>
                   <div>
                     <Link to="./">
                       <ButtonContainer>back to products</ButtonContainer>

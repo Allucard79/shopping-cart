@@ -26,7 +26,7 @@ class Modal extends Component {
                       <h5>item added to cart</h5>
                       <img src={img} className="img-fluid" alt="product"></img>
                       <h5>{model}</h5>
-                      <h5 className="text-muted">price: ${price}</h5>
+                      <h5>price: ${price}</h5>
                       <Link to="/">
                         <ButtonContainer onClick={() => closeModal()}>
                           continue
@@ -55,12 +55,15 @@ const ModalContainer = styled.div`
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.7);
+
   display: flex;
   align-items: center;
   justify-content: center;
   #modal {
-    background: var(--mainWhite);
+    background: var(--mainDark);
+    border-radius: 5px;
+    color: var(--mainWhite);
   }
 `;
 

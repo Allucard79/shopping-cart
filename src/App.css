@@ -1,42 +1,60 @@
 :root {
-  --mainBlue: #2a2a72;
+  --mainDark: #2f3640;
   --lightBlue: #009ffd;
   --mainWhite: #f3f3f3;
-  --mainDark: #232528;
+  --mainRed: #e84118;
   --mainYellow: #ffa400;
 }
 
 body {
   font-family: "Amiri" inherit !important;
-  background: var(--mainWhite) !important;
-  color: var(--mainDark) !important;
+  background-image: url("/img/background.jpg") !important;
+  color: var(--mainYellow) !important;
+  text-shadow: 1px 1px 2px #000000;
 }
 
 .text-title {
   font-family: "Fira Sans", sans-serif;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+  color: var(--mainRed);
 }
 
-.text-blue {
-  color: var(--mainBlue);
+.text-white {
+  color: var(--mainWhite);
+}
+
+.info {
+  background: var(--mainDark);
+  border-radius: 10px;
+}
+
+.text-inf {
+  color: var(--mainWhite);
 }
 
 .text-bright {
   color: var(--lightBlue);
 }
 
+.count {
+  background: var(--mainDark) !important;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainWhite) !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
 .btn-black {
   background: transparent;
   text-transform: capitalize;
   font-size: 0.8rem !important;
-  color: var(--mainDark);
+  color: var(--mainWhite) !important;
   border: 0.1rem solid var(--mainDark) !important;
 }
 
 .btn-black:hover {
   background: var(--mainDark);
-  color: var(--mainWhite) !important;
 }
 
 .cart-icon {
