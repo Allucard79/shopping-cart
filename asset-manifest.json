@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.a48639b2.chunk.css",
-    "main.js": "/static/js/main.3fa95b83.chunk.js",
-    "main.js.map": "/static/js/main.3fa95b83.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.257507b5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.257507b5.js.map",
-    "static/css/2.46967645.chunk.css": "/static/css/2.46967645.chunk.css",
-    "static/js/2.29aca7c9.chunk.js": "/static/js/2.29aca7c9.chunk.js",
-    "static/js/2.29aca7c9.chunk.js.map": "/static/js/2.29aca7c9.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.609b5353fb6d8a2279063145be708ada.js": "/precache-manifest.609b5353fb6d8a2279063145be708ada.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.46967645.chunk.css.map": "/static/css/2.46967645.chunk.css.map",
-    "static/css/main.a48639b2.chunk.css.map": "/static/css/main.a48639b2.chunk.css.map",
-    "static/js/2.29aca7c9.chunk.js.LICENSE": "/static/js/2.29aca7c9.chunk.js.LICENSE",
-    "static/media/all.min.css": "/static/media/fa-solid-900.f6121be5.woff2"
+    "main.css": "/shopping-cart/static/css/main.a48639b2.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.15f70c3e.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.15f70c3e.chunk.js.map",
+    "runtime-main.js": "/shopping-cart/static/js/runtime-main.276815e1.js",
+    "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.276815e1.js.map",
+    "static/css/2.508cad6f.chunk.css": "/shopping-cart/static/css/2.508cad6f.chunk.css",
+    "static/js/2.0cc2dd76.chunk.js": "/shopping-cart/static/js/2.0cc2dd76.chunk.js",
+    "static/js/2.0cc2dd76.chunk.js.map": "/shopping-cart/static/js/2.0cc2dd76.chunk.js.map",
+    "index.html": "/shopping-cart/index.html",
+    "precache-manifest.f332710b45fe1ceb45110f312feb1a7f.js": "/shopping-cart/precache-manifest.f332710b45fe1ceb45110f312feb1a7f.js",
+    "service-worker.js": "/shopping-cart/service-worker.js",
+    "static/css/2.508cad6f.chunk.css.map": "/shopping-cart/static/css/2.508cad6f.chunk.css.map",
+    "static/css/main.a48639b2.chunk.css.map": "/shopping-cart/static/css/main.a48639b2.chunk.css.map",
+    "static/js/2.0cc2dd76.chunk.js.LICENSE": "/shopping-cart/static/js/2.0cc2dd76.chunk.js.LICENSE",
+    "static/media/all.min.css": "/shopping-cart/static/media/fa-solid-900.f6121be5.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.257507b5.js",
-    "static/css/2.46967645.chunk.css",
-    "static/js/2.29aca7c9.chunk.js",
+    "static/js/runtime-main.276815e1.js",
+    "static/css/2.508cad6f.chunk.css",
+    "static/js/2.0cc2dd76.chunk.js",
     "static/css/main.a48639b2.chunk.css",
-    "static/js/main.3fa95b83.chunk.js"
+    "static/js/main.15f70c3e.chunk.js"
   ]
 }
