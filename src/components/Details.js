@@ -41,7 +41,7 @@ class Details extends Component {
                   </p>
                   <p className="lead text-inf">{info}</p>
                   <div>
-                    <Link to="./">
+                    <Link to={process.env.PUBLIC_URL + "/"}>
                       <ButtonContainer>back to products</ButtonContainer>
                     </Link>
                     <ButtonContainer

@@ -27,12 +27,12 @@ class Modal extends Component {
                       <img src={img} className="img-fluid" alt="product"></img>
                       <h5>{model}</h5>
                       <h5>price: ${price}</h5>
-                      <Link to="/">
+                      <Link to={process.env.PUBLIC_URL + "/"}>
                         <ButtonContainer onClick={() => closeModal()}>
                           continue
                         </ButtonContainer>
                       </Link>
-                      <Link to="/cart">
+                      <Link to={process.env.PUBLIC_URL + "/cart"}>
                         <ButtonContainer cart onClick={() => closeModal()}>
                           check cart
                         </ButtonContainer>

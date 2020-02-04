@@ -16,7 +16,7 @@ class Product extends Component {
                 className="img-container p-5"
                 onClick={() => value.handleDetail(id)}
               >
-                <Link to="/details">
+                <Link to={process.env.PUBLIC_URL + "/details"}>
                   <img src={img} alt="product" className="card-img-top"></img>
                 </Link>
                 <button
