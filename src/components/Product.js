@@ -68,7 +68,7 @@ const ProductWrapper = styled.div`
   .card {
     border-color: transparent;
     transition: all 0.5s linear;
-    background: var(--lightBlue);
+    background: var(--mainDark);
   }
 
   .card-footer {
@@ -84,8 +84,8 @@ const ProductWrapper = styled.div`
       box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.9);
     }
     .card-footer {
-      background: var(--mainYellow);
-      color: var(--lightBlue);
+      background: var(--mainRed);
+      color: var(--mainDark);
     }
   }
 
@@ -107,7 +107,7 @@ const ProductWrapper = styled.div`
     bottom: 0;
     right: 0;
     padding: 0.2rem 0.4rem;
-    background: var(--lightBlue);
+    background: var(--mineDark);
     border: none;
     color: var(--mainWhite);
     font-size: 1.4rem;
